@@ -1,0 +1,13 @@
+<!-- Gets the miles driven and number of gallons used and returns the average miles per gallon -->
+
+<script>
+  var miles = prompt("Enter miles driven");
+  miles = parseFloat(miles);
+  var gallons = prompt("Enter gallons of gas used");
+  gallons = parseFloat(gallons);
+  var mpg = miles/gallons;
+  mpg = parseInt(mpg);
+  
+  document.write("<h1>The Miles Per Gallon App</h1>");
+  document.write("The total miles per gallon is " + mpg);
+</script>

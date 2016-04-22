@@ -1,0 +1,17 @@
+<!-- Gets the length and width of a rectangle from a user and returns the area and perimeter -->
+
+<script>
+  var length = prompt("Enter the length of the rectangle");
+  length = parseFloat(length);
+  var width = prompt("Enter the width of the rectangle");
+  width = parseFloat(width);
+
+  var area = length * width;
+  area = parseFloat(area);
+  var perimeter = (length * 2) + (width * 2);
+  perimeter = parseFloat(perimeter);
+
+  document.write("<h1>The Area and Perimeter App</h1>");
+  document.write("Rectangle Area = " + area + "<br>");
+  document.write("Rectangle Perimeter = " + perimeter);
+</script>
