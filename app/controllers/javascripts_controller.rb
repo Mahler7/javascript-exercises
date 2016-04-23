@@ -20,4 +20,24 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch3_ex1_miles_per_gallon
+
+  end
+
+  def ch3_ex2_future_values
+
+  end
+
+  def ch3_ex3_test_scores
+
+  end
+
+  def ch3_ex4_test_scores
+
+  end
+
+  def ch3_ex5_future_values
+
+  end
+
 end
