@@ -26,5 +26,8 @@ Rails.application.routes.draw do
  # ch3 ex5
  get '/future_values_ch3_ex5' => 'javascripts#ch3_ex5_future_values'
 
+ #ch3 ex6
+ get '/test_scores_ch3_ex6' => 'javascripts#ch3_ex6_test_scores'
+
 
 end

@@ -40,4 +40,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch3_ex6_test_scores
+
+  end
+
 end
