@@ -29,5 +29,15 @@ Rails.application.routes.draw do
  #ch3 ex6
  get '/test_scores_ch3_ex6' => 'javascripts#ch3_ex6_test_scores'
 
+ #ch4 ex1
+ get '/email_list_ch4_ex1' => 'javascripts#ch4_ex1_email_list'
+
+ #ch4 ex2
+ get '/miles_per_gallon_ch4_ex2' => 'javascripts#ch4_ex2_miles_per_gallon'
+
+ #ch4 ex3
+ get '/email_list_ch4_ex3' => 'javascripts#ch4_ex3_email_list'
+ get '/join' => 'javascripts#ch4_ex3_email_list_join'
+
 
 end

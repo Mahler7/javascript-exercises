@@ -44,4 +44,20 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch4_ex1_email_list
+
+  end
+
+  def ch4_ex2_miles_per_gallon
+
+  end
+
+  def ch4_ex3_email_list
+
+  end
+
+  def ch4_ex3_email_list_join
+
+  end
+
 end

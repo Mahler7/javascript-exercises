@@ -1,0 +1,48 @@
+<script>
+  "use strict";
+  var $ = function(id) {
+    return document.getElementById(id);
+  };
+
+  function calculateMpg(miles, gallons) {
+    var mpg = (miles/gallons)
+    mpg = mpg.toFixed(1);
+    return mpg;
+  };
+
+  var processEntries = function() {
+    var miles = parseFloat($("miles").value);
+    var gallons = parseFloat($("gallons").value);
+    if (isNaN(miles) || isNaN(gallons)) {
+      alert("Both entries must be numeric");
+    } else if (miles < 0 || gallons < 0) {
+      alert("Both entries must be greater than 0");
+    } else {
+      $("mpg").value = calculateMpg(miles, gallons);
+    }
+  };
+  
+  window.onload = function() {
+    $("calculate").onclick = processEntries;
+    $("miles").focus();
+  };
+</script>
+
+<main>
+  <h1>Calculate Miles Per Gallon</h1>
+  <label for="miles">Miles Driven:</label>
+  <input type="text" id="miles">
+  <span id="miles_error">*</span><br>
+  
+  <label for="gallons">Gallons of Gas Used:</label>
+  <input type="text" id="gallons">
+  <span id="gallons_error">*</span><br>
+
+  <label for="mpg">Miles Per Gallon:</label>
+  <input type="text" id="mpg" disabled>
+
+  <label>&nbsp;</label>
+  <input type="button" id="calculate" value="Calculate MPG"><br>
+</main>
+
+
