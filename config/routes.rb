@@ -39,5 +39,9 @@ Rails.application.routes.draw do
  get '/email_list_ch4_ex3' => 'javascripts#ch4_ex3_email_list'
  get '/join' => 'javascripts#ch4_ex3_email_list_join'
 
+ #ch4 ex4
+ get '/future_values_ch4_ex4' => 'javascripts#ch4_ex4_future_values'
+ 
+
 
 end

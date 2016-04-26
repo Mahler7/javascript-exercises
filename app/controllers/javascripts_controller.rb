@@ -60,4 +60,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch4_ex4_future_values
+
+  end
+
 end
