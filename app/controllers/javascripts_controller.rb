@@ -64,4 +64,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch5_ex1_faq
+
+  end
+
 end

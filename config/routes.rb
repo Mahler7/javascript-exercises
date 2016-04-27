@@ -41,7 +41,10 @@ Rails.application.routes.draw do
 
  #ch4 ex4
  get '/future_values_ch4_ex4' => 'javascripts#ch4_ex4_future_values'
- 
+
+ #ch5 ex1
+ get '/faq_ch5_ex1' => 'javascripts#ch5_ex1_faq'
+
 
 
 end
