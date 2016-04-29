@@ -68,4 +68,12 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch5_ex2_register_account
+
+  end
+
+  def register_account
+
+  end
+
 end
