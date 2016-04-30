@@ -49,6 +49,8 @@ Rails.application.routes.draw do
  get '/register_account_ch5_ex2' => 'javascripts#ch5_ex2_register_account'
  get '/register_account' => 'javascripts#register_account'
 
+ #ch5 ex3
+ get '/register_account_ch5_ex3' => 'javascripts#ch5_ex3_register_account'
 
 
 end

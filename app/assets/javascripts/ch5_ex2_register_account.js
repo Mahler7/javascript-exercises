@@ -4,7 +4,6 @@ var $ = function(id) { return document.getElementById(id); };
 var processEntries = function() {
   var isValid = true;
   
-  // get values for user entries   
     var email = $("email_address").value;
     var phone = $("phone").value;
     var country = $("country").value;
@@ -13,7 +12,6 @@ var processEntries = function() {
     if ($("none").checked) { contact = "None"; }
     var terms = $("terms").checked;
 
-    // check user entries for validity
     if (email == "") {
         $("email_address").nextElementSibling.firstChild.nodeValue = "This field is required.";
     isValid = false;
