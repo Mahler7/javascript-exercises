@@ -80,4 +80,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch7_ex1_pig
+
+  end
+
 end
