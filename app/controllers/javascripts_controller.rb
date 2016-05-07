@@ -84,4 +84,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch7_ex2_countdown
+
+  end
+
 end

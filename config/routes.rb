@@ -52,7 +52,11 @@ Rails.application.routes.draw do
  #ch5 ex3
  get '/register_account_ch5_ex3' => 'javascripts#ch5_ex3_register_account'
 
+ #ch7 ex1
  get '/pig_ch7_ex1' => 'javascripts#ch7_ex1_pig'
+
+ #ch7 ex2
+ get '/countdown_ch7_ex2' => 'javascripts#ch7_ex2_countdown'
 
 
 end
