@@ -88,4 +88,8 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch8_ex1_invoice
+
+  end
+
 end

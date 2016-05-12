@@ -58,5 +58,8 @@ Rails.application.routes.draw do
  #ch7 ex2
  get '/countdown_ch7_ex2' => 'javascripts#ch7_ex2_countdown'
 
+ #ch8 ex1
+ get '/invoice_ch8_ex1' => 'javascripts#ch8_ex1_invoice'
+
 
 end
