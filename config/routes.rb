@@ -61,5 +61,23 @@ Rails.application.routes.draw do
  #ch8 ex1
  get '/invoice_ch8_ex1' => 'javascripts#ch8_ex1_invoice'
 
+ #ch9 ex1
+ get '/task_manager_ch9_ex1' => 'javascripts#ch9_ex1_task_manager'
+
+ #ch9 ex2
+ get '/task_manager_ch9_ex2' => 'javascripts#ch9_ex2_task_manager'
+
+ #ch10 ex1
+ get '/task_manager_ch10_ex1' => 'javascripts#ch10_ex1_task_manager'
+ 
+ #ch11 ex1
+ get '/task_manager_ch11_ex1' => 'javascripts#ch11_ex1_task_manager'
+
+ #ch11 ex2
+ get '/task_manager_ch11_ex2' => 'javascripts#ch11_ex2_task_manager'
+
+ #ch11 ex3
+ get '/task_manager_ch11_ex3' => 'javascripts#ch11_ex3_task_manager'
+
 
 end

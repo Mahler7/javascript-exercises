@@ -92,4 +92,32 @@ class JavascriptsController < ApplicationController
 
   end
 
+  def ch9_ex1_task_manager
+
+  end
+
+  def ch9_ex2_task_manager
+
+  end
+
+  def ch10_ex1_task_manager
+
+  end
+
+  def ch10_ex2_task_manager
+
+  end
+
+  def ch11_ex1_task_manager
+
+  end
+
+  def ch11_ex2_task_manager
+
+  end
+
+  def ch11_ex3_task_manager
+
+  end
+
 end
